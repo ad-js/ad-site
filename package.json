@@ -1,0 +1,27 @@
+{
+  "name": "ad-site",
+  "version": "1.0.0",
+  "main": "ad.js",
+  "repository": "git@github.com:ad-js/ad-site.git",
+  "author": "origin <link0627@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@vue/repl": "^1.2.4",
+    "@vue/theme": "^1.2.2",
+    "dynamics.js": "^1.1.5",
+    "gsap": "^3.9.0",
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^16.9.1",
+    "terser": "^5.14.2"
+  }
+}
