@@ -124,6 +124,27 @@ const nav: any = [
 ]
 
 export const sidebar = {
+  '/info/': [
+    {
+      text: '开始',
+      items: [
+        { text: '简介', link: '/info/info' },
+        {
+          text: '快速上手',
+          link: '/info/quick-start'
+        }
+      ]
+    },
+    {
+      text: '使用',
+      items: [
+        { text: '横幅广告', link: '/info/banner' },
+        { text: '对联广告', link: '/info/couplet' },
+        { text: '开屏广告', link: '/info/interstitial' },
+        { text: '展开广告', link: '/info/rollup' },
+      ]
+    }
+  ],
   '/guide/': [
     {
       text: 'Getting Started',
@@ -633,7 +654,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         text: 'MIT License',
         link: 'https://opensource.org/licenses/MIT'
       },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} link-ldq`
+      copyright: `Copyright © 2022-${new Date().getFullYear()} link-ldq`
     }
   } as any,
 

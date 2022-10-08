@@ -28,6 +28,6 @@ export const jobsPlugin = (md: MarkdownIt) => {
 
     return excludedPages.includes(relativePath)
       ? renderedContent
-      : renderedContent.replace(/<\/h1>/, '</h1><VueJobs/>')
+      : renderedContent.replace(/<\/h1>/, '</h1>')
   }
 }

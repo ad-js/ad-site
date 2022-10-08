@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import NewsLetter from './NewsLetter.vue'
+// import NewsLetter from './NewsLetter.vue'
 import { load, data, base } from './sponsors'
-import SponsorsGroup from './SponsorsGroup.vue'
-import VueMasteryModal from './VueMasteryModal.vue'
+// import SponsorsGroup from './SponsorsGroup.vue'
+// import VueMasteryModal from './VueMasteryModal.vue'
 
 onMounted(async () => {
   await load()
@@ -34,7 +34,7 @@ onMounted(async () => {
 
     <p class="actions">
       <!-- <vue-mastery-modal /> -->
-      <a class="get-started" href="/?a=/guide/introduction.html">
+      <a class="get-started" href="/info/info.html">
         Get to know
         <svg
           class="icon"
