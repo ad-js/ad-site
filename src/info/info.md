@@ -7,7 +7,8 @@ footer: false
 # 简介
 
 - 使用方便，美观，丰富多样的广告管理工具。基于原生JS，理论上支持所有前端框架。
-
+## 在线体验
+http://iphone7.plus:1006/ad.js/src/example/vue-examplate/
 
 ## 参与贡献
 
